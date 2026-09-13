@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="EMI STATUS explores the real cost of buying expensive smartphones on EMI. Use educational calculators and practical financial-awareness guides.">
+<meta name="keywords" content="iPhone EMI India, EMI calculator, smartphone affordability calculator, phone EMI, financial awareness, consumer finance">
+<meta name="author" content="EMI STATUS">
+<meta property="og:title" content="EMI STATUS — The Real Cost of Looking Rich">
+<meta property="og:description" content="Understand EMI pressure, smartphone affordability and the true cost of expensive purchases.">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://your-domain.vercel.app/">
+<title>EMI STATUS — The Real Cost of Looking Rich</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#">EMI<span>STATUS</span></a>
+  <nav><a href="#story">Story</a><a href="#calculators">Calculators</a><a href="#guides">Guides</a></nav>
+  <a class="nav-btn" href="#calculators">Check Affordability</a>
+</header>
+
+<main>
+<section class="hero">
+  <div class="eyebrow">FINANCIAL AWARENESS · INDIA</div>
+  <h1>Everyone wants an iPhone.<br><em>Even when the loan comes first.</em></h1>
+  <p class="lead">EMI can make an expensive phone look affordable. The real question is whether the payment fits comfortably into your financial life.</p>
+  <div class="actions"><a class="button" href="#calculators">Run a Reality Check →</a><a class="text-link" href="#story">Read the Story</a></div>
+  <div class="hero-card"><span>ESTIMATED MONTHLY EMI</span><strong id="heroEmi">₹2,824</strong><small>A monthly price is not the same thing as an affordable price.</small></div>
+</section>
+
+<section id="story" class="section story">
+  <div><div class="eyebrow">THE STORY</div><h2>Are we buying a phone — or a status symbol?</h2></div>
+  <div class="prose">
+    <p>A premium smartphone can be a useful product, but the way it is marketed can make a large purchase feel much smaller when the headline focuses on a monthly EMI.</p>
+    <p>EMI itself is not automatically good or bad. What matters is the complete picture: income, essential expenses, existing debt, savings, interest, fees and other financial goals.</p>
+    <div class="quote">“A monthly price is not the same thing as an affordable price.”</div>
+  </div>
+</section>
+
+<section id="calculators" class="section calculators">
+  <div class="section-head"><div><div class="eyebrow">FREE TOOLS</div><h2>Run the numbers.</h2></div><p>Educational estimates only. Actual lender terms vary.</p></div>
+  <div class="grid">
+    <article class="calc-card">
+      <h3>EMI Calculator</h3>
+      <label>Phone price <output id="priceOut">₹80,000</output><input id="price" type="range" min="10000" max="250000" step="1000" value="80000"></label>
+      <label>Down payment <output id="downOut">₹20,000</output><input id="down" type="range" min="0" max="100000" step="1000" value="20000"></label>
+      <label>Annual interest <output id="rateOut">12%</output><input id="rate" type="range" min="0" max="30" step="0.5" value="12"></label>
+      <label>Tenure <output id="monthsOut">24 months</output><input id="months" type="range" min="3" max="48" step="1" value="24"></label>
+      <div class="result"><span>Estimated monthly EMI</span><strong id="emi">₹2,824</strong></div>
+      <div class="mini"><span>Total loan repayment</span><b id="total">₹67,786</b></div>
+    </article>
+
+    <article class="calc-card">
+      <h3>Affordability Check</h3>
+      <label>Monthly income <output id="incomeOut">₹30,000</output><input id="income" type="range" min="10000" max="200000" step="1000" value="30000"></label>
+      <label>Existing monthly EMIs <output id="existingOut">₹3,000</output><input id="existing" type="range" min="0" max="50000" step="500" value="3000"></label>
+      <div class="score" id="score">—</div>
+      <p id="scoreText">Adjust the numbers to see an educational affordability indicator.</p>
+      <div class="bar"><i id="bar"></i></div>
+      <small>This is not a credit decision or personalized financial advice.</small>
+    </article>
+  </div>
+</section>
+
+<section class="section true-cost">
+  <div class="eyebrow">THE BIGGER PICTURE</div>
+  <h2>₹4,000 a month is still ₹144,000 over 36 months.</h2>
+  <div class="cost-grid">
+    <div><b>36</b><span>months</span></div>
+    <div><b>₹1,44,000</b><span>EMI payments</span></div>
+    <div><b>+</b><span>interest, accessories and other ownership costs</span></div>
+  </div>
+  <p class="muted">The point is not that every EMI is bad. The point is that the monthly headline number should never be the only number you consider.</p>
+</section>
+
+<section id="guides" class="section guides">
+  <div class="eyebrow">FINANCIAL AWARENESS</div><h2>Learn before you borrow.</h2>
+  <div class="cards">
+    <article><span>01</span><h3>Why EMI Feels Cheaper</h3><p>Learn how monthly pricing can change the way we perceive a large purchase.</p></article>
+    <article><span>02</span><h3>Phone vs. Financial Goals</h3><p>Think about recurring phone payments alongside savings and other priorities.</p></article>
+    <article><span>03</span><h3>Questions Before Taking EMI</h3><p>Review interest, fees, tenure, total repayment and your existing commitments.</p></article>
+  </div>
+</section>
+
+<section class="section faq">
+  <div class="eyebrow">FAQ</div><h2>Quick answers.</h2>
+  <details><summary>Is buying an iPhone on EMI always a bad idea?</summary><p>No. Affordability depends on income, essential expenses, savings, existing debt and the actual financing terms.</p></details>
+  <details><summary>Does EMI STATUS provide financial advice?</summary><p>No. EMI STATUS provides general educational information and calculator estimates. It does not provide individualized financial advice.</p></details>
+  <details><summary>Why can the calculator differ from my lender?</summary><p>Actual repayment can vary because of interest methods, fees, taxes, discounts, tenure and lender-specific terms.</p></details>
+</section>
+
+<section class="legal">
+  <h3>Important Disclaimer</h3>
+  <p>This website is for educational and informational purposes only. Calculations are estimates and are not financial, investment, legal, tax or credit advice. Actual loan terms may differ. Verify all terms, fees and repayment amounts directly with the relevant financial institution before making a financial decision.</p>
+</section>
+</main>
+
+<footer>
+  <div class="brand">EMI<span>STATUS</span></div>
+  <p>Financial awareness, without the hype.</p>
+  <div><a href="#">Privacy Policy</a><a href="#">Terms of Use</a><a href="#">Disclaimer</a></div>
+  <small>© 2026 EMI STATUS. Educational content only.</small>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
