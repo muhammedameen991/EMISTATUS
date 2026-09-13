@@ -2,224 +2,347 @@
 
 ### The Real Cost of Looking Rich.
 
-**EMI STATUS** is a modern financial-awareness platform designed to help people understand the real cost of expensive consumer purchases, especially smartphones bought through EMI.
+**EMI STATUS** is a modern financial-awareness platform that helps people understand the real cost of expensive consumer purchases, especially smartphones purchased through EMI.
 
-🌐 **Live:** https://emistatus.vercel.app/
-💻 **GitHub:** https://github.com/muhammedameen991/EMISTATUS
+🌐 **Live Website:** https://emistatus.vercel.app/
+💻 **GitHub Repository:** https://github.com/muhammedameen991/EMISTATUS
 
 ---
 
 ## ✨ What is EMI STATUS?
 
-EMI STATUS explores a simple question:
+EMI STATUS asks a simple question:
 
-> **Can you actually afford the purchase — or does the monthly EMI only make it look affordable?**
+> **Can you actually afford the purchase, or does the monthly payment only make it look affordable?**
 
-The platform combines:
+The platform combines interactive financial calculators, educational content, visual explanations and modern web experiences to help users think beyond the advertised monthly payment.
 
-* Interactive EMI calculations
-* Affordability analysis
+### The platform focuses on:
+
+* EMI calculations
+* Affordability awareness
+* Total repayment
+* Purchase-cost analysis
 * Consumer-finance education
-* True-cost breakdowns
-* Long-form financial-awareness content
-* Search-engine optimized content
-* AI-search / Generative Engine Optimization
-* Responsive premium UI
-* Performance-focused static architecture
+* Interactive financial tools
+* Visual financial explanations
+* Responsive premium design
+* Privacy-conscious client-side calculations
 
-The goal is **education, not financial advice**.
+**The platform is educational and does not provide personalized financial advice.**
 
 ---
 
-## 🚀 Core Features
+# 🚀 Core Features
 
-### 🧮 EMI Calculator
+## 🧮 EMI Calculator
 
-Calculate an estimated monthly EMI using:
+Calculate an estimated monthly payment using:
 
 * Product price
 * Down payment
 * Interest rate
 * Loan tenure
-* Total repayment
 
-The calculator uses real-time client-side calculations with no backend or database.
+The calculator provides:
+
+```text
+Principal Amount
+        ↓
+Interest Rate
+        ↓
+Loan Tenure
+        ↓
+Monthly EMI
+        ↓
+Total Repayment
+```
+
+All calculations happen directly in the browser.
+
+No account or backend is required.
 
 ---
 
-### 📊 Affordability Check
+# 📊 Affordability Check
 
-Estimate how significant a new EMI could be compared with:
+The affordability tool provides an educational indication based on:
 
 * Monthly income
-* Existing EMIs
+* Existing monthly EMIs
 * Estimated new EMI
 
-The interface provides a simple educational indicator:
+Possible results:
 
+```text
 🟢 Comfortable
 🟡 Think Twice
 🔴 High Pressure
+```
 
-> This is an educational indicator, not a credit score or financial recommendation.
+The indicator is intentionally simple.
+
+It is **not**:
+
+* A credit score
+* A loan approval system
+* A banking decision
+* A personalized financial recommendation
 
 ---
 
-### 💰 True Cost Thinking
+# 💰 True Cost Thinking
 
-EMI STATUS doesn't stop at:
-
-> "Only ₹X/month."
-
-It encourages users to consider:
+EMI STATUS focuses on the complete cost rather than only the advertised monthly payment.
 
 ```text
 Purchase Price
-        +
+      +
 Interest
-        +
+      +
 Fees
-        +
+      +
 Accessories
-        +
+      +
 Other Ownership Costs
-        =
-Real Cost
+      =
+Total Cost
 ```
+
+The purpose is to encourage users to consider the complete financial commitment before making a purchase.
 
 ---
 
-## 🎨 Premium UI & Animation
+# 🎨 Premium Experience
 
-The website is designed around a modern editorial-fintech aesthetic.
+EMI STATUS is designed as a modern editorial-finance experience rather than a traditional calculator website.
 
-### Visual direction
+### Design language
 
-* Dark premium interface
+* Premium dark interface
 * High-contrast typography
-* Red financial-warning accents
-* Glass-style cards
 * Large financial numbers
-* Responsive layouts
+* Glass-style surfaces
+* Subtle borders
 * Minimal navigation
-* Mobile-first design
-
-### Animation philosophy
-
-Animations should communicate information rather than exist only for decoration.
-
-Recommended motion system:
-
-```text
-Page Load
-   ↓
-Hero Content Reveal
-   ↓
-Financial Number Animation
-   ↓
-Interactive Calculator Updates
-   ↓
-Scroll-Based Section Reveals
-   ↓
-Chart / Indicator Transitions
-   ↓
-FAQ Expansion
-```
-
-### Recommended animation effects
-
-* Smooth hero text reveal
-* Number/count-up animations
-* Card hover elevation
-* Scroll reveal
-* Calculator result transitions
-* Progress-bar animation
-* Button micro-interactions
-* Subtle background gradients
-* Reduced-motion accessibility support
-
-Animations should remain lightweight and avoid hurting Core Web Vitals.
+* Responsive layouts
+* Mobile-first interaction
+* Strong visual hierarchy
+* Carefully controlled motion
 
 ---
 
-# 🔍 SEO Strategy
+# ✨ Advanced Animation System
 
-EMI STATUS is designed around **search intent**, rather than trying to rank for extremely broad keywords.
+Animation is used to make financial information easier to understand.
 
-## Primary Topics
+The goal is **meaningful motion**, not excessive decoration.
 
-* iPhone EMI
-* Smartphone EMI
-* EMI calculator
-* Phone affordability
-* Consumer finance
-* Smartphone financial planning
-* EMI vs cash purchase
-* True cost of smartphone ownership
+## 🌌 Background Motion
 
-## Long-Tail Search Intent
+Possible visual effects:
 
-Examples:
+* Slow gradient movement
+* Soft radial light movement
+* Ambient background particles
+* Subtle noise texture
+* Mouse-following light
+* Section-based background transitions
 
-```text
-iPhone EMI calculator India
-phone EMI calculator
-can I afford an iPhone
-iPhone on EMI worth it
-smartphone EMI affordability
-mobile phone EMI calculator India
-phone EMI vs buying cash
-true cost of buying an iPhone
-```
-
-Long-tail queries are useful because they represent more specific user intent.
+Motion should remain subtle and never interfere with readability.
 
 ---
 
-# 🤖 GEO / AEO Strategy
+## 🎬 Hero Animation
 
-EMI STATUS is structured so that search engines and AI answer systems can understand the site's content clearly.
-
-### Generative Engine Optimization principles
-
-Content should provide:
-
-1. A direct answer
-2. Supporting explanation
-3. Transparent calculations
-4. Clear definitions
-5. Relevant examples
-6. FAQ sections
-7. Sources where appropriate
-8. Author/editorial information
-9. Updated dates
-10. Clear disclaimers
-
-Example structure:
+Recommended sequence:
 
 ```text
-Question
-↓
-Short Answer
-↓
-Explanation
-↓
-Example
-↓
-Calculator
-↓
-Important Considerations
-↓
-FAQ
+Page Opens
+    ↓
+Background Appears
+    ↓
+Eyebrow Fades In
+    ↓
+Headline Reveals
+    ↓
+Description Slides Up
+    ↓
+CTA Appears
+    ↓
+Financial Card Floats Into Position
 ```
 
-This makes content easier to interpret and summarize accurately.
+The hero should feel cinematic while remaining fast.
+
+---
+
+## 🔢 Financial Number Animation
+
+Financial values can animate when they change.
+
+Example:
+
+```text
+₹0
+ ↓
+₹12,500
+ ↓
+₹27,800
+ ↓
+₹49,999
+ ↓
+₹80,000
+```
+
+Use smooth counting transitions instead of instantly replacing numbers.
+
+This makes calculator changes easier to follow visually.
+
+---
+
+## 📈 Calculator Animations
+
+When the user changes a value:
+
+```text
+Slider Movement
+      ↓
+Calculation
+      ↓
+Number Transition
+      ↓
+EMI Update
+      ↓
+Progress Update
+      ↓
+Affordability Indicator
+```
+
+Recommended effects:
+
+* Number interpolation
+* Progress-bar transitions
+* Result-card glow
+* Smooth height changes
+* Percentage transitions
+* State-change animation
+
+---
+
+# 🪄 Scroll Animations
+
+Sections can reveal themselves as the user scrolls.
+
+Recommended effects:
+
+* Fade-up
+* Slide-up
+* Blur-to-clear
+* Scale-in
+* Staggered cards
+* Horizontal reveal
+* Line expansion
+* Number count-up
+
+Example:
+
+```text
+Section enters viewport
+        ↓
+Heading reveals
+        ↓
+Description reveals
+        ↓
+Cards appear sequentially
+        ↓
+Interactive elements activate
+```
+
+Animations should use efficient browser properties such as:
+
+```css
+transform
+opacity
+```
+
+Avoid unnecessarily expensive animations.
+
+---
+
+# 🃏 Interactive Card Motion
+
+Cards can respond to interaction with:
+
+* Small elevation changes
+* Border transitions
+* Subtle scale
+* Shadow transitions
+* Cursor-following highlights
+* Icon movement
+
+Interactions should remain restrained.
+
+The website should feel premium rather than flashy.
+
+---
+
+# 🖱️ Button Micro-Interactions
+
+Buttons can include:
+
+* Hover movement
+* Press feedback
+* Arrow movement
+* Background transition
+* Soft glow
+* Focus states
+
+Example:
+
+```text
+Check Affordability →
+                 ↗
+```
+
+The arrow can move slightly when the user hovers.
+
+---
+
+# 📱 Mobile Motion
+
+Animations must also work on lower-powered mobile devices.
+
+Mobile animation priorities:
+
+1. Fast rendering
+2. Minimal battery usage
+3. Touch-friendly controls
+4. No excessive parallax
+5. No blocking animations
+6. Clear interaction feedback
+
+---
+
+# ♿ Reduced Motion
+
+Users who prefer reduced motion should receive a simplified experience.
+
+Respect:
+
+```css
+@media (prefers-reduced-motion: reduce)
+```
+
+Animations should be reduced or disabled where appropriate.
+
+Content and functionality must remain fully usable.
 
 ---
 
 # 🧠 Content Architecture
 
-Future content can follow this structure:
+The platform can grow into a broader consumer-finance education website.
 
 ```text
 /
@@ -242,57 +365,27 @@ Future content can follow this structure:
 
 ---
 
-# 🔗 Internal Linking Strategy
+# 🔗 Content Connections
 
-Every article should naturally connect to relevant tools.
+Useful content should naturally connect to relevant tools.
 
 Example:
 
 ```text
-iPhone EMI Guide
+Financial Guide
+      ↓
+Related Explanation
       ↓
 EMI Calculator
       ↓
-Affordability Calculator
+Affordability Check
       ↓
-True Cost Calculator
+True Cost Analysis
       ↓
-Related Financial Guide
+Related Guide
 ```
 
-This creates a strong topical relationship between content and tools.
-
----
-
-# 📈 SEO Technical Foundation
-
-The project includes:
-
-* Semantic HTML
-* Responsive viewport configuration
-* Meta description
-* Keyword targeting
-* Open Graph metadata
-* Canonical URL
-* `robots.txt`
-* XML sitemap
-* Clean URLs
-* Mobile-first layout
-* Accessible interactive elements
-* Vercel deployment configuration
-
-Future improvements can include:
-
-* JSON-LD structured data
-* Article schema
-* Breadcrumb schema
-* WebSite schema
-* Author profiles
-* FAQ structured data where appropriate
-* Dynamic metadata for every article
-* Social sharing images
-* RSS feed
-* Search Console integration
+This creates a useful learning journey instead of isolated pages.
 
 ---
 
@@ -309,83 +402,189 @@ Browser
    ├── CSS
    └── JavaScript
         │
-        └── Client-side calculations
+        ├── Calculator
+        ├── UI interactions
+        └── Animations
 ```
 
-No:
+The current architecture does not require:
 
 * Backend server
 * Database
 * Authentication
-* API dependency
-* Heavy frontend framework
+* User accounts
+* External financial APIs
 
-This keeps the initial architecture simple and inexpensive to deploy.
+This keeps the project simple, fast and inexpensive to operate.
 
 ---
 
-# 🛡️ Privacy
+# 🔐 Privacy by Design
 
-The calculator is designed to work locally in the browser.
+The basic calculator experience can work entirely in the user's browser.
 
-Users do not need to create an account to perform basic calculations.
+The platform does not require users to enter:
 
-The project does not require users to submit:
-
-* Bank credentials
-* Card information
+* Bank passwords
+* Card numbers
+* Banking credentials
 * Loan account credentials
 * Payment information
 
-If analytics, advertising or third-party services are added later, the privacy policy should be updated accordingly.
+If future versions introduce analytics, advertising, accounts, newsletters or third-party services, the privacy documentation should be updated accordingly.
 
 ---
 
-# ⚖️ Financial Disclaimer
+# ⚖️ Legal & Compliance Principles
 
-EMI STATUS is an educational platform.
+EMI STATUS should operate as an **independent educational platform**, not as a lender or financial adviser.
 
-The calculators provide estimates and should **not** be treated as:
+## Financial Information
 
-* Financial advice
-* Investment advice
-* Credit approval
-* Loan approval
-* Legal advice
-* Tax advice
+Content should remain general and educational.
 
-Actual EMI and repayment amounts can vary depending on:
+Avoid presenting content as personalized instructions such as:
 
-* Lender
-* Interest calculation method
+> “You should take this loan.”
+
+Instead:
+
+> “Consider these factors before taking a loan.”
+
+---
+
+## Calculator Disclaimer
+
+Calculator results are estimates.
+
+Actual repayment can vary based on:
+
 * Interest rate
-* Fees
+* Interest calculation method
+* Processing fees
 * Taxes
 * Discounts
 * Tenure
-* Loan conditions
+* Lender policies
+* Other applicable charges
 
-Users should verify actual terms directly with the relevant financial institution.
+Users should verify the actual terms with the relevant financial institution.
+
+---
+
+## No False Financial Claims
+
+Do not publish unsupported statements such as:
+
+* “This loan is guaranteed.”
+* “Everyone can afford this.”
+* “This bank always offers the cheapest loan.”
+* “This EMI will make you rich.”
+* “This calculator guarantees approval.”
+
+Financial examples should be clearly identified as examples.
+
+---
+
+## Company & Product Names
+
+EMI STATUS may discuss products and companies for legitimate educational or editorial purposes.
+
+However:
+
+* Do not impersonate another company.
+* Do not suggest sponsorship without permission.
+* Do not copy proprietary branding.
+* Do not use another company's logo in a misleading way.
+* Do not claim affiliation without authorization.
+
+Product names and trademarks remain the property of their respective owners.
+
+---
+
+## Advertising & Affiliate Content
+
+If advertising or affiliate partnerships are introduced:
+
+* Clearly identify commercial relationships.
+* Do not disguise advertisements as independent editorial content.
+* Do not make unsupported product claims.
+* Clearly distinguish sponsored content from editorial content.
+* Review applicable advertising and consumer-protection requirements before publishing.
+
+---
+
+## User Data
+
+If the platform later collects personal information, provide appropriate:
+
+* Privacy Policy
+* Data-use explanation
+* Cookie information where applicable
+* Contact information
+* Data-retention information
+* User-request procedures
+
+Never request sensitive financial credentials when they are unnecessary for the site's functionality.
+
+---
+
+# 📜 Important Disclaimer
+
+> **EMI STATUS is an independent educational project.**
+>
+> The information and calculators provided by this website are for general educational and informational purposes only. They are not financial, investment, legal, tax, credit or lending advice.
+>
+> Calculator results are estimates and may differ from actual lender calculations. Users should independently verify interest rates, fees, taxes, repayment schedules and other applicable terms with the relevant financial institution before making financial decisions.
+>
+> EMI STATUS does not guarantee loan approval, affordability, savings, returns or any particular financial outcome.
+
+---
+
+# 🛡️ Security Principles
+
+The project should follow basic web-security practices including:
+
+* HTTPS deployment
+* Secure response headers
+* Input validation
+* No unnecessary collection of sensitive data
+* No exposed credentials
+* No hard-coded API secrets
+* Dependency review when dependencies are introduced
+* Safe external-resource handling
+
+Never place:
+
+```text
+API keys
+Private tokens
+Passwords
+Bank credentials
+Secret environment variables
+```
+
+inside client-side JavaScript.
 
 ---
 
 # 🧩 Technology
 
-### Frontend
+## Frontend
 
 * HTML5
 * CSS3
 * Vanilla JavaScript
 
-### Deployment
+## Hosting
 
 * Vercel
 
-### Repository
+## Source Control
 
 * GitHub
 
-### Architecture
+## Architecture
 
 * Static
 * Client-side
@@ -424,35 +623,38 @@ Enter the project:
 cd EMISTATUS
 ```
 
-Because the project is static, it can be opened directly:
+The website can be opened directly:
 
 ```text
 index.html
 ```
 
-For a local development server, use any simple static HTTP server.
+For development, use any lightweight local HTTP server.
 
 ---
 
 # ☁️ Vercel Deployment
 
-The project is designed for static deployment on Vercel.
+The project is designed for simple deployment.
 
-### Option 1 — GitHub
+### GitHub Deployment
 
 1. Push the project to GitHub.
 2. Open Vercel.
 3. Import the repository.
-4. Deploy.
-5. Add your custom domain if required.
+4. Select the project.
+5. Deploy.
+6. Add a custom domain if required.
 
-### Option 2 — Vercel CLI
+### CLI Deployment
+
+Install Vercel CLI:
 
 ```bash
 npm install -g vercel
 ```
 
-Then:
+Deploy:
 
 ```bash
 vercel
@@ -460,166 +662,197 @@ vercel
 
 ---
 
-# 🌐 Production SEO Checklist
+# 📱 Responsive Design
 
-Before launch:
+The interface is designed for:
 
-* [ ] Replace placeholder canonical URL
-* [ ] Replace placeholder sitemap domain
-* [ ] Verify `robots.txt`
-* [ ] Submit sitemap to Google Search Console
-* [ ] Add Open Graph image
-* [ ] Add Twitter/X metadata
-* [ ] Add structured data
-* [ ] Create About page
-* [ ] Create Privacy Policy
-* [ ] Create Terms of Use
-* [ ] Create Disclaimer page
-* [ ] Add author information
-* [ ] Add article publication dates
-* [ ] Add article update dates
-* [ ] Check mobile usability
-* [ ] Check page speed
-* [ ] Test all calculator inputs
-* [ ] Test accessibility
-* [ ] Test 404 handling
+* Mobile phones
+* Tablets
+* Laptops
+* Desktop computers
+* Large displays
+
+Special attention should be given to:
+
+* Touch targets
+* Slider controls
+* Typography
+* Calculator readability
+* Navigation
+* Animation performance
 
 ---
 
-# 📚 Content Growth Strategy
+# ♿ Accessibility
+
+The project should maintain:
+
+* Keyboard navigation
+* Visible focus states
+* Semantic HTML
+* Accessible labels
+* Sufficient text contrast
+* Screen-reader-friendly controls
+* Reduced-motion support
+* Touch-friendly controls
+
+Accessibility should never be sacrificed for visual effects.
+
+---
+
+# 📚 Future Content
 
 EMI STATUS can expand beyond smartphones.
 
-### Consumer Electronics
+## Consumer Electronics
 
 * Smartphones
 * Laptops
+* Tablets
 * Gaming PCs
 * TVs
 * Cameras
-* Tablets
 
-### Larger Purchases
+## Larger Purchases
 
 * Motorcycles
 * Cars
-* Electronics
-* Education expenses
+* Home electronics
+* Education-related expenses
 
-### Financial Awareness
+## Financial Awareness
 
 * EMI psychology
 * Credit cards
 * Buy Now Pay Later
-* Debt management education
-* Emergency funds
 * Saving vs borrowing
-
-The long-term objective is to build a **consumer-finance education platform**, not simply an iPhone website.
-
----
-
-# 🎯 Product Philosophy
-
-EMI STATUS does not tell people:
-
-> "Never use EMI."
-
-Instead, it asks:
-
-> **"Do you understand the full cost before you commit?"**
-
-That distinction is at the heart of the platform.
+* Emergency savings
+* Consumer debt awareness
+* Purchase planning
 
 ---
 
 # 🔮 Roadmap
 
-### Phase 1 — Foundation
+## Phase 1 — Foundation
 
 * [x] Premium landing page
 * [x] EMI calculator
 * [x] Affordability indicator
-* [x] Responsive UI
-* [x] SEO foundation
+* [x] Responsive interface
+* [x] Client-side calculations
 * [x] Vercel deployment
 
-### Phase 2 — SEO & GEO
+## Phase 2 — Experience
 
-* [ ] Dedicated calculator URLs
-* [ ] Dedicated guide pages
-* [ ] JSON-LD
-* [ ] Breadcrumbs
-* [ ] Author pages
-* [ ] Editorial policy
-* [ ] Search Console optimization
-* [ ] More long-tail content
-
-### Phase 3 — Advanced Experience
-
-* [ ] Animated financial charts
+* [ ] Advanced scroll animations
+* [ ] Animated number transitions
+* [ ] Interactive financial charts
 * [ ] True-cost calculator
-* [ ] Savings opportunity calculator
-* [ ] Compare EMI vs cash
-* [ ] Purchase timeline simulator
-* [ ] Advanced affordability analysis
-* [ ] User-selectable currency
+* [ ] Savings comparison
+* [ ] EMI vs cash comparison
+* [ ] Purchase timeline visualization
 
-### Phase 4 — Content Platform
+## Phase 3 — Content
 
-* [ ] Financial-awareness publication
-* [ ] Searchable guide library
-* [ ] Topic clusters
-* [ ] Related-content engine
-* [ ] Newsletter
-* [ ] Original research and reports
+* [ ] Dedicated financial guides
+* [ ] Interactive educational stories
+* [ ] Topic library
+* [ ] Related-content system
+* [ ] Original research
+* [ ] Financial-awareness reports
+
+## Phase 4 — Advanced Platform
+
+* [ ] Multiple currencies
+* [ ] More purchase categories
+* [ ] Advanced comparison tools
+* [ ] Printable reports
+* [ ] Accessibility improvements
+* [ ] Performance monitoring
+* [ ] Optional anonymous analytics
 
 ---
 
-# ⭐ Contributing
+# 🧪 Quality Checklist
 
-Suggestions, improvements and bug reports are welcome.
+Before every production release:
 
-If you find a problem:
+* [ ] Test every calculator input
+* [ ] Test zero-interest calculations
+* [ ] Test maximum values
+* [ ] Test mobile layout
+* [ ] Test desktop layout
+* [ ] Test keyboard navigation
+* [ ] Test reduced-motion mode
+* [ ] Test external links
+* [ ] Test legal pages
+* [ ] Test broken routes
+* [ ] Test browser compatibility
+* [ ] Remove debug code
+* [ ] Remove test content
+* [ ] Verify no secrets are exposed
 
-1. Open an issue.
-2. Describe the problem clearly.
-3. Include reproduction steps where possible.
-4. Suggest an improvement if you have one.
+---
+
+# 🤝 Contributing
+
+Suggestions and improvements are welcome.
+
+To contribute:
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Make your changes.
+4. Test the website.
+5. Open a pull request.
+
+For major changes, describe the reason and expected user benefit.
 
 ---
 
 # 📄 License
 
-Add an appropriate open-source license before accepting external contributions.
+If the repository is intended to be open source, add an appropriate license file.
 
-If no license is included, the repository should not be assumed to grant permission to reuse or redistribute the source code.
+Without an explicit license, third parties should not assume that they have permission to reuse, modify or redistribute the source code.
 
 ---
 
-## 🌐 Links
+# 🌐 Project Links
 
-**Live Website:**
+### Live Website
+
 https://emistatus.vercel.app/
 
-**GitHub Repository:**
+### GitHub
+
 https://github.com/muhammedameen991/EMISTATUS
 
 ---
 
-## ⚠️ Disclaimer
+# ⚠️ Final Notice
 
 EMI STATUS is an independent educational project.
 
-It is not a bank, lender, financial institution, investment adviser, credit provider or representative of any smartphone manufacturer.
+It is **not**:
 
-All product names and trademarks belong to their respective owners.
+* A bank
+* A lender
+* A credit provider
+* An investment adviser
+* A financial institution
+* A loan broker
+* A representative of a smartphone manufacturer
 
-**Educational information only. Not financial advice.**
+All trademarks, product names and company names belong to their respective owners.
 
 ---
 
-### Built for better financial decisions.
+# 💳 EMI STATUS
 
-**EMI STATUS**
-*The Real Cost of Looking Rich.*
+### The Real Cost of Looking Rich.
+
+**Understand the payment.
+Understand the commitment.
+Understand the real cost.**
